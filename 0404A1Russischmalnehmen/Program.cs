@@ -29,6 +29,8 @@ namespace _0404A1Russischmalnehmen
                     Console.WriteLine("a: {0,4}  b: {1,4}  r: {2,4}", a, b, r);
                 } while (a > 1);
             }
+            else
+                Console.WriteLine("Bitte nur nuetzliche Werte eintragen!");
         }
     }
 }
